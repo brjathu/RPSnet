@@ -79,10 +79,10 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 <p align="center">(f) Performance on Imagenet 100 classes with 10 classes per task</p>
 
 
-## Download pre-trained models
+<---## Download pre-trained models
 
 Download this [model](https://drive.google.com/file/d/1VFxDq6CrAaIeQda_JWVb01erz8BJnlZk/view?usp=sharing) and extract the files inside models directory. Then run `python3 test.py` file with corresponding paths.
-
+--->
 
 
 ## We credit
