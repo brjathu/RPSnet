@@ -48,9 +48,11 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 
 ## Performance
 
-
-![a](https://drive.google.com/open?id=13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB?raw=True)
-
+<p align="center"><img src="https://drive.google.com/file/d/13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB/view?usp=sharing?dl=0&raw=1"></p>
+<p align="center">(a) Initial Training of the CapsNet model M<sub>1</sub></p>
+ 
+ 
+ 
 ## Download pre-trained models
 
 Download this [model](https://drive.google.com/file/d/1VFxDq6CrAaIeQda_JWVb01erz8BJnlZk/view?usp=sharing) and extract the files inside models directory. Then run `python3 test.py` file with corresponding paths.
