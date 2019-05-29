@@ -46,14 +46,23 @@ If you need to change the settings (Eg. Number of tasks), run the `python3 prepa
 for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) contains file names and labels. Place it inside `prepare` and run `python3 prepare/generate_ILSVRC_labels.py`
 
 
-## Performance
+
+## Introduction
+
+<p align="justify">Incremental life-long learning is a main challenge towards the long-standing goal of Artificial General Intelligence. In real-life settings, learning tasks arrive in a sequence and machine learning models must continually learn to increment already acquired knowledge. Existing incremental learning approaches, fall well below the state-of-the-art cumulative models that use all training classes at once. In this paper, we propose a random path selection algorithm, called RPS-Net, that progressively chooses optimal paths for the new tasks while encouraging parameter sharing and reuse. Our approach avoids the overhead introduced by computationally expensive evolutionary and reinforcement learning based path selection strategies  while achieving considerable performance gains. As an added novelty, the proposed model integrates knowledge distillation and retrospection along with the path selection strategy to overcome catastrophic forgetting. In order to maintain an equilibrium between previous and newly acquired knowledge, we propose a simple controller to dynamically balance the model plasticity.  Through extensive experiments, we demonstrate that the proposed method surpasses the state-of-the-art performance on incremental learning and by utilizing parallel computation this method can run in constant time with nearly the same efficiency as a conventional deep convolutional neural network.</p>
 
 ![image](https://drive.google.com/uc?export=view&id=13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB)
+<p align="center">(a) RPS network architucte <sub>1</sub></p>
 
-<p align="center"><img src="https://drive.google.com/file/d/13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB/view?usp=sharing?dl=0&raw=1"></p>
-<p align="center">(a) Initial Training of the CapsNet model M<sub>1</sub></p>
- 
- 
+![image](https://drive.google.com/uc?export=view&id=1dGBisyVzJpIRxc1BP9v_DU5-wgMuzMuy)
+<p align="center">(b) Random path selection algorithm <sub>1</sub></p>
+
+
+
+## Performance
+
+
+
  
 ## Download pre-trained models
 
