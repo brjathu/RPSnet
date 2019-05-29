@@ -65,13 +65,16 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1xxjd_DVWTZ-jXauD_IduPtNTNZqum1I_" width="500"></p>
 <p align="center">(c) Performance on CIFAR100 with 10 classes per task</p>
-
+<br/>
+<br/>
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1uYxRTszoIi1UaM8y4_njhXevDTr8KgBy" width="500"></p>
 <p align="center">(d) Performance on CIFAR100 with 20 classes per task</p>
-
+<br/>
+<br/>
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1-_5o3OixdpfVqglQS3xLdDda5H1yuCj0" width="500"></p>
 <p align="center">(e) Performance on CIFAR100 with 50 classes per task</p>
-
+<br/>
+<br/>
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1ZihpdFfGUtZDGrgA-ul0JA7RNCjvTVXf" width="500"></p>
 <p align="center">(f) Performance on Imagenet 100 classes with 10 classes per task</p>
 
@@ -87,6 +90,7 @@ We have used [this](https://github.com/kimhc6028/pathnet-pytorch) as the pathnet
 
 ## Contact
 Jathushan Rajasegaran - jathushan.rajasegaran@inceptioniai.org   or brjathu@gmail.com
+<br/>
 Discussions, suggestions and questions are welcome!
 
 
