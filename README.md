@@ -53,6 +53,8 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 
 ![image](https://drive.google.com/uc?export=view&id=13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB)
 <p align="center">(a) RPS network architucte <sub>1</sub></p>
+<\br>
+<\br>
 
 ![image](https://drive.google.com/uc?export=view&id=1dGBisyVzJpIRxc1BP9v_DU5-wgMuzMuy)
 <p align="center">(b) Random path selection algorithm <sub>1</sub></p>
