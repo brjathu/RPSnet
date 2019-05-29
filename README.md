@@ -54,7 +54,8 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB"></p>
 <p align="center">(a) RPS network architucte</p>
-
+<br/>
+<br/> 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1dGBisyVzJpIRxc1BP9v_DU5-wgMuzMuy"></p>
 <p align="center">(b) Random path selection algorithm</p>
 
@@ -66,13 +67,13 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 <p align="center">(c) Performance on CIFAR100 with 10 classes per task</p>
 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1uYxRTszoIi1UaM8y4_njhXevDTr8KgBy" width="500"></p>
-<p align="center">(c) Performance on CIFAR100 with 20 classes per task</p>
+<p align="center">(d) Performance on CIFAR100 with 20 classes per task</p>
 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1-_5o3OixdpfVqglQS3xLdDda5H1yuCj0" width="500"></p>
-<p align="center">(c) Performance on CIFAR100 with 50 classes per task</p>
+<p align="center">(e) Performance on CIFAR100 with 50 classes per task</p>
 
 <p align="center"><img src="https://drive.google.com/uc?export=view&id=1ZihpdFfGUtZDGrgA-ul0JA7RNCjvTVXf" width="500"></p>
-<p align="center">(c) Performance on Imagenet 100 classes with 10 classes per task</p>
+<p align="center">(f) Performance on Imagenet 100 classes with 10 classes per task</p>
 
 
 ## Download pre-trained models
