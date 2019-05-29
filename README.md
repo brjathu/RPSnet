@@ -43,7 +43,7 @@ To test with several other datasets (ILSVRC, MNSIT etc) run the corresponding fi
 
 If you need to change the settings (Eg. Number of tasks), run the `python3 prepare/generate_cifar100_labels.py` with corresponding settings.
 
-for ILSVRC, download the pickle file contains file names and labels. Place it inside `prepare` and run `python3 prepare/generate_ILSVRC_labels.py`
+for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) contains file names and labels. Place it inside `prepare` and run `python3 prepare/generate_ILSVRC_labels.py`
 
 
 ## Performance
@@ -53,32 +53,15 @@ for ILSVRC, download the pickle file contains file names and labels. Place it in
 
 ## Download pre-trained models
 
-Download this [CIFAR10 - pretrained models](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) and extract the files inside model directory. Then run `ensemble.py` file.
-```
-python ensemble.py
-```
+Download this [model](https://drive.google.com/file/d/1VFxDq6CrAaIeQda_JWVb01erz8BJnlZk/view?usp=sharing) and extract the files inside models directory. Then run `python3 test.py` file with corresponding paths.
+
+
 
 ## We credit
-We have used [this](https://github.com/XifengGuo/CapsNet-Keras) as the base CapsNet implementation. We thank and credit the contributors of this repository.
+We have used [this](https://github.com/kimhc6028/pathnet-pytorch) as the pathnet implementation. We thank and credit the contributors of this repository.
 
 ## Contact
-Jathushan Rajasegaran - brjathu@gmail.com  
+Jathushan Rajasegaran - jathushan.rajasegaran@inceptioniai.org   or brjathu@gmail.com
 Discussions, suggestions and questions are welcome!
 
-## References
-[1] J. Rajasegaran, V. Jayasundara, S.Jeyasekara, N. Jeyasekara, S. Seneviratne, R. Rodrigo. "DeepCaps : Going Deeper with Capsule Networks." *Conference on Computer Vision and Pattern Recognition.* 2019. [[arxiv]](https://arxiv.org/abs/1904.09546)
 
-
----
-
-If you found this code useful in your research, please consider citing
-```
-@misc{rajasegaran2019deepcaps,
-    title={DeepCaps: Going Deeper with Capsule Networks},
-    author={Jathushan Rajasegaran and Vinoj Jayasundara and Sandaru Jayasekara and Hirunima Jayasekara and Suranga Seneviratne and Ranga Rodrigo},
-    year={2019},
-    eprint={1904.09546},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
