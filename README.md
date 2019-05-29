@@ -48,6 +48,8 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 
 ## Performance
 
+![image](https://drive.google.com/uc?export=view&id=13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB)
+
 <p align="center"><img src="https://drive.google.com/file/d/13lAKnkgAYJOR4IAWFBwH2c79yZpl3FtB/view?usp=sharing?dl=0&raw=1"></p>
 <p align="center">(a) Initial Training of the CapsNet model M<sub>1</sub></p>
  
