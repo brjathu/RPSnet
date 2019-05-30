@@ -45,9 +45,8 @@ class Learner():
         for j, params in enumerate(params_set): 
             for i, param in enumerate(params):
                 if(i==self.args.M):
-                    if(self.args.sess==0):
-                        p = {'params': param.parameters()}
-                        trainable_params.append(p)
+                    p = {'params': param.parameters()}
+                    trainable_params.append(p)
                 else:
                     if(self.train_path[j,i]==1):
                         p = {'params': param.parameters()}
