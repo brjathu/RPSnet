@@ -44,7 +44,7 @@ If you are training on for a specific task, then run,
 python3 cifar.py TASK_NUM TEST_CASE
 ```
 
-You can use the pre-trained models on (`CIFAR100`)[https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR] and (`ILSVRC`)[https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR].
+You can use the pre-trained models on [`CIFAR100`](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) and [`ILSVRC`](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR).
 
 To test with several other datasets (ILSVRC, MNSIT etc) run the corresponding files `imagenet.py` or `mnist.py`.
 
