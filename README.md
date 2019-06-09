@@ -81,7 +81,9 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 <p align="center">(f) Performance on Imagenet 100 classes with 10 classes per task</p>
 
 
+## Reproducing iCaRL results
 
+Although the last classiciation is not same as in iCaRL (uses examplar based nigherest neighbour), by setting `M=1, J=10` we can get almost the same basline results as iCaRL.
 
 
 ## We credit
