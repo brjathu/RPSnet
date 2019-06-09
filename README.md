@@ -44,13 +44,14 @@ If you are training on for a specific task, then run,
 python3 cifar.py TASK_NUM TEST_CASE
 ```
 
-You can use the pre-trained models on [`CIFAR100`](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) and [`ILSVRC`](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR).
+You can use the pre-trained models on [`CIFAR100`](https://drive.google.com/open?id=18kVpXv28b2nccwu-FzGNSyEb8k76Rdy_) and [`ILSVRC`](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR).
 
 To test with several other datasets (ILSVRC, MNSIT etc) run the corresponding files `imagenet.py` or `mnist.py`.
 
 If you need to change the settings (Eg. Number of tasks), run the `python3 prepare/generate_cifar100_labels.py` with corresponding settings.
 
-for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com/open?id=1Plj-dH4OoSORqWf-23XxToW0X46NdVmR) contains file names and labels. Place it inside `prepare` and run `python3 prepare/generate_ILSVRC_labels.py`
+
+for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com/file/d/1VFxDq6CrAaIeQda_JWVb01erz8BJnlZk/view?usp=sharing) contains file names and labels. Place it inside `prepare` and run `python3 prepare/generate_ILSVRC_labels.py`
 
 
 ## Supported Datasets
