@@ -1,7 +1,7 @@
 # RPSnet
 Official Implementation of "Random Path Selection for Incremental Learning" paper [(arXiv link)](https://arxiv.org/abs/1906.01120). 
 
-This code provides an implementation for RPSnet : Random Path Selection network for incremental learning. This repository is implemented with pytorch and the scripts are written to run the experiments on a DGX machine.
+This code provides an implementation for RPSnet : Random Path Selection network for incremental learning. This repository is implemented with pytorch and the scripts are written to run the experiments on multiple GPUs.
 
 ## Introduction
 
