@@ -1,7 +1,7 @@
-# RPSnet
-Official Implementation of "Random Path Selection for Incremental Learning" paper [(arXiv link)](https://arxiv.org/abs/1906.01120). 
+# RPSnet for Incremental Learning (NeurIPS'19)
+Official Implementation of "Random Path Selection for Incremental Learning" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1906.01120). 
 
-This code provides an implementation for RPSnet : Random Path Selection network for incremental learning. This repository is implemented with pytorch and the scripts are written to run the experiments on multiple GPUs.
+This code provides an implementation for RPSnet : Random Path Selection network for incremental learning (accepted in Nerual Information Processing Systems, Vancouver, 2019). This repository is implemented with pytorch and the scripts are written to run the experiments on multiple GPUs.
 
 ## Introduction
 
@@ -84,6 +84,16 @@ for ILSVRC, download the pickle file  [meta_ILSVRC.pkl](https://drive.google.com
 ## Reproducing iCaRL results
 
 Although the last classiciation is not same as in iCaRL (uses examplar based nigherest neighbour), by setting `M=1, J=10` we can get almost the same basline results as iCaRL.
+
+## Citation
+```
+@article{rajasegaran2019random,
+  title={Random Path Selection for Incremental Learning},
+  author={Rajasegaran, Jathushan and Hayat, Munawar and Khan, Salman and Khan, Fahad Shahbaz and Shao, Ling},
+  journal={Advances in Neural Information Processing Systems},
+  year={2019}
+}
+```
 
 
 ## We credit
