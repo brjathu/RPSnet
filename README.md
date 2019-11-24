@@ -1,5 +1,5 @@
 # RPSnet for Incremental Learning (NeurIPS'19)
-Official Implementation of "Random Path Selection for Incremental Learning" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1906.01120). 
+Official Implementation of "Random Path Selection for Incremental Learning" (NeurIPS 2019) [(paper link)](http://papers.nips.cc/paper/9429-random-path-selection-for-continual-learning). 
 
 This code provides an implementation for RPSnet : Random Path Selection network for incremental learning (accepted in Nerual Information Processing Systems, Vancouver, 2019). This repository is implemented with pytorch and the scripts are written to run the experiments on multiple GPUs.
 
