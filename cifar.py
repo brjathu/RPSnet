@@ -48,13 +48,13 @@ class args:
     num_class = 100
     class_per_task = 10
     M = 8
-    jump = 1
+    jump = 2
     rigidness_coff = 2.5
     dataset = "CIFAR"
     
-    epochs = 50
+    epochs = 100
     L = 9
-    N = 4
+    N = 1
     lr = 0.001
     train_batch = 128
     test_batch = 128
@@ -65,7 +65,7 @@ class args:
     evaluate = False
     sess = 0
     test_case = 0
-    schedule = [20, 30, 40]
+    schedule = [20, 40, 60, 80]
     gamma = 0.5
 
     
